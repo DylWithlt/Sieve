@@ -38,8 +38,6 @@ public class NonParallelSieveTaskExecutor {
         }
         long eTime = System.nanoTime();
 
-
         System.out.println("Largest Prime: " + largestPrime + " Time elapsed: " + (eTime-sTime));
-
      }
 }
